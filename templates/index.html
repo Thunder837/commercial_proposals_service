@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Автоматизация КП</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .upload-container {
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      }
+      .logo {
+        max-width: 200px;
+        display: block;
+        margin: 0 auto 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Навигационное меню -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">Главная</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/upload_kp">Обработать КП</a></li>
+            <li class="nav-item"><a class="nav-link" href="/upload_contract">Создать договор</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about">О проекте</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center mt-5">
+      <h2>Выберите действие</h2>
+      <p class="lead">Что вы хотите сделать?</p>
+      
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <a href="/upload_kp" class="btn btn-primary btn-lg w-100">📄 Обработать коммерческое предложение</a>
+        </div>
+        <div class="col-md-6">
+          <a href="/upload_contract" class="btn btn-success btn-lg w-100">📝 Создать договор</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
