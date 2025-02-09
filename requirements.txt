@@ -1,0 +1,12 @@
+Flask
+pandas
+openpyxl
+python-docx
+pdfminer.six
+pytesseract
+Pillow
+docxtpl
+celery
+redis
+python-dotenv
+requests
